@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <h1>RANDOM QUIZ</h1>
+    <hr>
+
+    <h2>Question 1</h2>
+    <p>
+      What country uses the flag below? (<a href="https://www.canada.ca/en.html" target="_blank">HINT</a>)
+    </p>
+    <img class="black-border" src="media/canada-flag.png" alt="Canada Flag" width="400px">
+    <p class="italic">Answer: <input id='answer1' type="text"> <span id='result1'></span></p>
+    <hr>
+
+    <h2>Question 2</h2>
+    <p>Which of the following is <strong>not</strong> a piece used in Chess?</p>
+    <ul>
+      <li>Pawn</li>
+      <li>Knight</li>
+      <li>Cardinal</li>
+      <li>Rook</li>
+      <li>Queen</li>
+      <li>King</li>
+    </ul>
+    <p class="italic">Answer: <input id='answer2' type="text"> <span id='result2'></span></p>
+    <hr>
+
+    <h2>Question 3</h2>
+    <p>Who is Po <em>(The Kung Fu Panda)</em> scared of in this audio clip?</p>
+    <img src="media/kungfu-panda.png" alt="Kung Fu Panda">
+    <p>
+      <audio controls>
+        <source src="media/kungfu-panda-scared.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </p>
+    <p class="italic">Answer: <input id='answer3' type="text"> <span id='result3'></span></p>
+    <hr>
+    
+    <h2>Question 4</h2>
+    <p>
+      What sport uses the following equipment?
+    </p>
+    <img class="black-border" src="media/pb-equipment.jpg" alt="Pickleball Equipment">
+    <p class="italic">Answer: <input id='answer4' type="text"> <span id='result4'></span></p>
+    <hr>
+
+    <h2>Results</h2>
+    <p>
+      <button id='mark-quiz'>Mark Quiz</button> Your score is <span id='quiz-score'>__</span> / 4 (<span id='quiz-percent'>__</span> %).
+    </p>
+    <p>Thanks for taking this <span>Random Quiz!</span></p>
+  </div>
+
+  <!-- Load JavaScript -->
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+
+body {
+  background: url("media/question-mark-background.png") no-repeat center fixed; 
+  background-size: cover;
+  /* background-color: navy; */
+  margin: 0;
+}
+
+h1 {
+  color: navy;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 3px;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-variant: small-caps;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p, ul, input {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-right: 25px;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 150px 100px;
+  width: 600px;
+  margin: auto;
+}
+
+.black-border {
+  border: 1px solid black;
+}
+
+span {
+  font-variant: small-caps;
+  color: maroon;
+  font-weight: 800;
+  font-size: 24px;
+}
